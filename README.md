@@ -98,7 +98,7 @@ describe("what-is-a-test", () => {
     });
   });
 
-  describe("Height", () => {
+  describe("Height", () => {Your
     it("is less than 40", () => {
       expect(height).toBeLessThan(40);
     });
@@ -192,6 +192,7 @@ this:
 
 ```console
 > js-functions-lab@0.1.0 test
+
 > mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
 
 
